@@ -1,0 +1,80 @@
+.presentation {
+    display: grid;
+    grid-template: repeat(5, 20%) / repeat(5, 20%);
+    height: 1300px;
+}
+
+.imageMe1 {
+    grid-area: 1 / 1 / 6 / 3;
+    background: url('../img/aboutUs/about1.png') no-repeat center center/cover;
+}
+
+.imageMe2 {
+    grid-area: 1 / 3 / 3 / 6;
+    background: url('../img/aboutUs/about2.png') no-repeat center center/cover;
+}
+
+.imageMe3 {
+    grid-area: 3 / 3 / 6 / 6;
+    background: url('../img/aboutUs/about3.png') no-repeat center center/cover;
+}
+
+.textImage {
+    grid-area: 3 / 2 / 5 / 6;
+}
+
+.textImage h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 130px;
+    font-weight: 200;
+}
+
+/* ABOUT ME */
+
+.aboutMe {
+    display: grid;
+    grid-template: repeat(4, 25%) / repeat(4, 25%);
+    height: 1300px;
+}
+
+.videoMe {
+    grid-area: 1 / 1 / 5 / 4;
+}
+
+.imageMe {
+    grid-area: 1 / 4 / 5 / 5;
+    background: url('../img/aboutUs/about4.png') no-repeat center center/cover;
+}
+
+.imageMe p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: start;
+    padding: 50% 30px;
+}
+
+.videoMe #aboutVideo {
+    object-fit: cover;
+    height: 100%;
+}
+
+/* VIDEO */
+
+#aboutVideo {
+    display: block;
+    width: 100%;
+    pointer-events: none;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.content img {
+    width: 40%;
+    padding-top: 25px;
+}

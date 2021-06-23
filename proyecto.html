@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mano de obra</title>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- YANONE KAFFEESATZ -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300&display=swap" rel="stylesheet">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/proyecto.css">
+    <link rel="stylesheet" href="./styles/device-width.css">
+    <script>
+
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var proyecto = url.searchParams.get('proyecto');
+
+        window.onload = function() {
+            if(proyecto == "proyecto1") {
+                document.getElementById('proyecto').style.background = 'url("../img/projects/project1/MANO-DE-OBRA-9.png") no-repeat center center/cover';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-5.png"]').src = './img/projects/project1/MANO-DE-OBRA-10.png';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-9.png"]').src = './img/projects/project1/MANO-DE-OBRA-21.png';
+                document.querySelector('video').src = './videos/project1.mp4';
+            } else if(proyecto == "proyecto2") {
+                document.getElementById('proyecto').style.background = 'url("../img/projects/project2/VQ306-1.png") no-repeat center center/cover';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-3.png"]').src = './img/projects/project2/VQ306-1.png';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-4.png"]').src = './img/projects/project2/VQ306-2.png';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-5.png"]').src = './img/projects/project2/VQ306-3.png';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-6.png"]').src = './img/projects/project2/VQ306-4.png';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-9.png"]').src = './img/projects/project2/VQ306-5.png';
+                document.querySelector('video').src = './videos/project2.mp4';
+            } else if(proyecto == "proyecto3") {
+                document.getElementById('proyecto').style.background = 'url("../img/projects/project3/VQ-1.jpeg") no-repeat center center/cover';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-3.png"]').src = './img/projects/project3/VQ-2.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-4.png"]').src = './img/projects/project3/VQ-3.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-5.png"]').src = './img/projects/project3/VQ-4.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-6.png"]').src = './img/projects/project3/VQ-5.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-9.png"]').src = './img/projects/project3/VQ-6.jpeg';
+                document.querySelector('video').src = './videos/project3.mp4';
+            } else if(proyecto == "proyecto4") {
+                document.getElementById('proyecto').style.background = 'url("../img/projects/project4/VQ071-1.jpeg") no-repeat center center/cover';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-3.png"]').src = './img/projects/project4/VQ071-2.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-4.png"]').src = './img/projects/project4/VQ071-3.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-5.png"]').src = './img/projects/project4/VQ071-4.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-6.png"]').src = './img/projects/project4/VQ071-5.jpeg';
+                document.querySelector('img[src="./img/projects/project1/MANO-DE-OBRA-9.png"]').src = './img/projects/project4/VQ071-6.jpeg';
+                document.querySelector('video').src = './videos/project4.mp4';
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+    <div id="sidebar">
+        <div class="toggle-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <img src="./img/LOGO.png" alt="" class="logo">
+            </li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./about.html">Nosotros</a></li>
+            <li><a href="./contact-us.html">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="grid">
+        <div class="grid1" id="proyecto">
+            <img src="./img/LOGO.png" alt="Mano de obra LOGO">
+        </div>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h1 id="titulo">Lorem, ipsum dolor.</h1>
+        <p id="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facere qui similique dicta vero sunt ullam.</p>
+
+        <div class="mySlides fade" id="foto1">
+            <img src="./img/projects/project1/MANO-DE-OBRA-3.png" alt="Carousel">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="./img/projects/project1/MANO-DE-OBRA-4.png" alt="Carousel">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/projects/project1/MANO-DE-OBRA-5.png" alt="Carousel">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/projects/project1/MANO-DE-OBRA-6.png" alt="Carousel">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/projects/project1/MANO-DE-OBRA-9.png" alt="Carousel">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <video autoplay muted loop id="video1" style="padding: 40px 0;">
+            <source src="./videos/video1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <div class="links">
+                        <a href="#" class="insta">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="fb">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="wa">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, possimus!</p>
+    </footer>
+
+    <script src="./js/main.js" charset="utf-8"></script>
+    <script src="./js/slide.js"></script>
+    
+</body>
+</html>

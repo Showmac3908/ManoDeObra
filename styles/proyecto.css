@@ -1,0 +1,79 @@
+.container .mySlides img {
+    width: 100%;
+    height: 900px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+#proyecto {
+    height: 800px;
+}
+
+#proyecto img {
+    width: 30%;
+    padding-top: 20px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    margin-left: 47.5%;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}

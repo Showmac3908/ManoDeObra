@@ -1,0 +1,170 @@
+/* DESKTOP  */
+/* 1024x768 - 1920x1080 */
+@media (max-width: 1500px) {
+    /* INICIO */
+    .grid > .grid1 {
+        height: 800px;
+    }
+
+    .proyectos h1 {
+        font-size: 40px;
+    }
+    
+    .proyectos p {
+        font-size: 30px;
+    }
+
+    /* PROYECTO */
+    .container .mySlides img {
+        height: 700px;
+    }
+
+    /* ABOUT */
+
+    .presentation {
+        height: 900px;
+    }
+
+    .textImage h1 {
+        font-size: 80px;
+    }
+
+    .aboutMe {
+        height: 900px;
+    }
+
+    .imageMe p {
+        font-size: 40px;
+    }
+
+    /* CONTACT */
+    .contact h1 {
+        font-size: 70px;
+    }
+} 
+
+/* TABLET */
+/* 601x962 - 1280x800 */
+@media (max-width: 1100px) {
+    /* INICIO */
+    .grid > .grid1 {
+        height: 1300px;
+    }
+
+    .grid1 img {
+        padding-top: 20px;
+    }
+
+    /*.proyectos {
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        height: 2000px;
+    }*/
+
+    /*.proyecto3 {
+        grid-area: 2 / 1 / 3 / 3 ;
+    }*/
+
+    .proyectos h1 {
+        font-size: 45px;
+    }
+    
+    .proyectos p {
+        font-size: 35px;
+    }
+
+    .proyectos a {
+        font-size: 25px;
+    }
+
+    /*.proyecto4 {
+        grid-area: 1 / 1 / 2 / 3 ;
+    }*/
+
+    .center-items1, .center-items2, .center-items5, .center-items6 {
+        justify-content: flex-end;
+    }
+
+    .nested-grid h1 {
+        font-size: 110px;
+    }
+
+    /* PROYECTO */
+    #proyecto img {
+        padding: 50px 0 0 15px;
+    }
+
+    /* ABOUT */
+    .textImage h1 {
+        font-size: 70px;
+    }
+
+    /* CONTACT */
+    .contact-container {
+        grid-template: repeat(5, 1fr) / repeat(3, 1fr);
+    }
+
+    .contact {
+        grid-area: 3 / 1 / 4 / 4;
+        padding: 8% 20px;
+    }
+
+    .image1 { grid-area: 1 / 1 ; }
+    
+    .image2 { grid-area: 1 / 2 ; }
+    
+    .image3 { grid-area: 1 / 3 ; }
+    
+    .image4 { grid-area: 2 / 1 ; }
+    
+    .image5 { grid-area: 2 / 2 ; }
+    
+    .image6 { grid-area: 2 / 3 ; }
+    
+    .image7 { grid-area: 3 / 1 ; }
+    
+    .image8 { grid-area: 3 / 2 ; }
+    
+    .image9 { grid-area: 3 / 3 ; }
+    
+    .image10 { grid-area: 4 / 1 ; }
+    
+    .image11 { grid-area: 4 / 2 ; }
+    
+    .image12 { grid-area: 4 / 3 ; }
+    
+    .image13 { grid-area: 5 / 1 ; }
+    
+    .image14 { grid-area: 5 / 2 ; }
+    
+    .image15 { grid-area: 5 / 3 ; }
+    
+    .image16 { display: none; }
+} 
+
+@media (max-width: 800px) {
+    /* INICIO */
+    .nested-grid h1 {
+        font-size: 80px;
+    }
+
+    /* PROYECTO */
+    .container .mySlides img {
+        height: 500px;
+    }
+
+    /* ABOUT */
+    .aboutMe {
+        height: 600px;
+    }
+
+    .imageMe p {
+        font-size: 30px;
+    }
+}
+
+/* MOBILE */
+/* 360x640 - 414x896 */
+@media (max-width: 360px) {
+    
+} 
+
