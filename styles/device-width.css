@@ -47,12 +47,33 @@
 /* 601x962 - 1280x800 */
 @media (max-width: 1100px) {
     /* INICIO */
+    #sidebar {
+    width: 480px;
+    left: -480px;
+    }
+
+    #sidebar ul li {
+        font-size: 50px;
+    }
+
+    #sidebar .toggle-btn {
+        left: 500px;
+    }
+
+    #sidebar .toggle-btn i {
+        font-size: 70px;
+    }
+
     .grid > .grid1 {
         height: 1300px;
     }
 
     .grid1 img {
         padding-top: 20px;
+    }
+
+    .element2-2 h1 {
+        font-size: 80px;
     }
 
     /*.proyectos {
@@ -90,12 +111,34 @@
 
     /* PROYECTO */
     #proyecto img {
-        padding: 50px 0 0 15px;
+        padding: 80px 0 0 15px;
     }
 
     /* ABOUT */
     .textImage h1 {
         font-size: 70px;
+    }
+
+    .content img {
+        padding-top: 70px;
+    }
+
+    .videoMe {
+        grid-area: 1 / 1 / 4 / 5;
+    }
+
+    .imageMe {
+        grid-area: 4 / 1 / 5 / 5;
+    }
+
+    .imageMe p {
+        padding: 5% 50px;
+        text-align: center;
+    }
+
+    .textImage {
+        grid-area: 3 / 2 / 5 / 5;
+        text-align: center;
     }
 
     /* CONTACT */
@@ -143,12 +186,61 @@
 
 @media (max-width: 800px) {
     /* INICIO */
+    #sidebar .toggle-btn i {
+        font-size: 60px;
+    }
+
+    #sidebar ul li {
+        font-size: 40px;
+    }
+
+    #sidebar {
+        width: 360px;
+        left: -360px;
+    }
+    
+    #sidebar .toggle-btn {
+        left: 380px;
+    }
+
     .nested-grid h1 {
-        font-size: 80px;
+        font-size: 90px;
+    }
+
+    .element2-2 h1 {
+        font-size: 60px;
+    }
+
+    .proyectos {
+        grid-template-rows: 50% 50%;
+    }
+
+    .proyecto1 {
+        grid-area: 1 / 1 / 2 / 7;
+    }
+
+    .proyecto2 {
+        grid-area: 2 / 1 / 3 / 7;
+    }
+
+    .proyecto3 {
+        grid-area: 1 / 1 / 2 / 7;
+    }
+
+    .proyecto4 {
+        grid-area: 2 / 1 / 3 / 7;
+    }
+
+    .center-items1, .center-items2, .center-items3, .center-items4 {
+        height: 400px;
     }
 
     /* PROYECTO */
     .container .mySlides img {
+        height: 500px;
+    }
+
+    #proyecto {
         height: 500px;
     }
 
@@ -162,9 +254,332 @@
     }
 }
 
+@media (max-width: 650px) {
+    /* HOME */
+    .grid > .grid1 {
+        height: 1000px;
+    }
+
+    .element2, .element4 {
+        grid-column: 1/4;
+        text-align: center;
+    }
+
+    .element3 {
+        grid-column: 1/3;
+        text-align: center;
+    }
+
+    /* PROJECTS */
+    .container .mySlides img {
+        height: 400px;
+    }
+
+    /* ABOUT */
+    .textImage {
+        grid-area: 3 / 1 / 5 / 6;
+    }
+
+}
+
 /* MOBILE */
 /* 360x640 - 414x896 */
-@media (max-width: 360px) {
+@media (max-width: 550px) {
+    .footer p {
+        font-size: 15px;
+    }
+
+    /* HOME */
+    #sidebar .toggle-btn i {
+        font-size: 40px;
+    }
+
+    #sidebar ul li {
+        font-size: 25px;
+    }
+
+    #sidebar {
+        width: 250px;
+        left: -250px;
+    }
     
+    #sidebar .toggle-btn {
+        left: 270px;
+    }
+
+    .grid > .grid1 {
+        height: 800px;
+    }
+
+    .element2-2 h1 {
+        font-size: 50px;
+    }
+
+    .center-items1, .center-items2, .center-items3, .center-items4 {
+        justify-content: unset;
+    }
+
+    .nested-grid h1 {
+        font-size: 70px;
+    }
+
+    /* PROJECTS */
+    #proyecto {
+        height: 300px;
+    }
+
+    #proyecto img {
+        padding: 50px 0 0 20px;
+        width: 40%;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .container p {
+        font-size: 25px;
+    }
+
+    .container .mySlides img {
+        height: 330px;
+    }
+
+    /* ABOUT */
+    .content img {
+        padding-top: 40px;
+        width: 50%;
+    }
+
+    .textImage h1 {
+        font-size: 60px;
+    }
+
+    /* CONTACT */
+    .contact-container {
+        grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+        height: 1000px;
+    }
+
+    .contact {
+        grid-area: 2 / 1 / 4 / 4;
+        align-self: center;
+    }
+
+    .image3 { display: none; }
+    .image6 { display: none; }
+    .image9 { display: none; }
+    .image12 { display: none; }
+    .image12 { display: none; }
+    .image13 { display: none; }
+    .image14 { display: none; }
+    .image15 { display: none; }
+}
+
+@media (max-width: 450px) {
+    #sidebar .toggle-btn {
+        left: 250px;
+        top: 0;
+    }
+
+    /* HOME */
+    #sidebar .toggle-btn i {
+        font-size: 35px;
+    }
+
+    .proyectos h1 {
+        font-size: 40px;
+    }
+
+    .proyectos p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .proyectos a {
+        font-size: 20px;
+    }
+
+    .nested-grid h1 {
+        font-size: 60px;
+    }
+
+    .grid > .grid2 {
+        height: 800px;
+    }
+
+    /* PROJECTS */
+    #proyecto img {
+        padding: 40px 0 0 0px;
+        width: 35%;
+    }
+
+    #proyecto {
+        height: 200px;
+    }
+
+    .container .mySlides img {
+        height: 250px;
+    }
+
+    .prev {
+        margin-left: 39%;
+    }
+
+    /* ABOUT */
+    .content {
+        padding: 0;
+    }
+
+    .content img {
+        width: 45%;
+    }
+
+    .textImage h1 {
+        font-size: 50px;
+    }
+
+    .imageMe p {
+        font-size: 25px;
+    }
+
+    .imageMe1 {
+        grid-area: 1 / 1 / 4 / 6;
+    }
+
+    .imageMe2 {
+        grid-area: 4 / 1 / 6 / 6;
+    }
+
+    .imageMe3 {
+        display: none;
+    }
+
+    /* CONTACT */
+    .contact h1 {
+        font-size: 50px;
+    }
 } 
 
+@media (max-width: 350px) {
+    #sidebar {
+        width: 200px;
+        left: -200px;
+    }
+
+    #sidebar .toggle-btn {
+        left: 200px;
+    }
+
+    #sidebar .toggle-btn i {
+        font-size: 30px;
+    }
+
+    .links a i {
+        font-size: 40px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    /* HOME */
+    .grid > .grid1 {
+        height: 600px;
+    }
+
+    .element2-2 h1 {
+        font-size: 35px;
+    }
+
+    .proyectos {
+        height: 800px;
+    }
+
+    .center-items1, .center-items2, .center-items3, .center-items4 {
+        padding: 50px 20px 50px 20px;
+    }
+
+    .proyectos h1 {
+        font-size: 30px;
+    }
+
+    .proyectos p {
+        font-size: 25px;
+    }
+
+    .proyectos a {
+        font-size: 16px;
+    }
+
+    .grid > .grid2 {
+        height: 600px;
+    }
+
+    .grid2 > div {
+        padding-top: 80px;
+    }
+
+    .nested-grid h1 {
+        font-size: 45px;
+    }
+
+    .element1, .element2, .element3, .element4 {
+        text-align: start;
+    }
+
+    /* PROJECTS */
+    #proyecto {
+        height: 160px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+
+    .container .mySlides img {
+        height: 190px;
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .prev {
+        margin-left: 36%;
+    }
+
+    /* ABOUT */
+    .presentation {
+        height: 600px;
+    }
+
+    .textImage h1 {
+        font-size: 35px;
+        padding: 0 30px 0 30px;
+    }
+
+    .aboutMe {
+        height: 500px;
+    }
+
+    .imageMe p {
+        font-size: 20px;
+        padding: 10% 10%;
+    }
+
+    /* CONTACT */
+    .contact-container {
+        height: 660px;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+    }
+
+    .contact-links a i {
+        font-size: 45px;
+    }
+}
