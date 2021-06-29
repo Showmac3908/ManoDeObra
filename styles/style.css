@@ -183,6 +183,7 @@ hr {
     border: 1px solid #ffffff;
     margin: 10px 0;
     text-decoration: none;
+    border-radius: 15px;
 }
 
 .btn:hover {
