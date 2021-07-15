@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/device-width.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
 
@@ -43,10 +44,10 @@
     </div>
 
     <div class="presentation">
-        <div class="imageMe1"></div>
-        <div class="imageMe2"></div>
-        <div class="imageMe3"></div>
-        <div class="textImage">
+        <div class="imageMe1" data-aos="fade-right" data-aos-delay="500"></div>
+        <div class="imageMe2" data-aos="fade-down-left" data-aos-delay="500"></div>
+        <div class="imageMe3" data-aos="fade-up-left" data-aos-delay="500"></div>
+        <div class="textImage" data-aos="zoom-in-right" data-aos-delay="500">
             <h1>Los mejores estilos españoles.</h1>
         </div>
     </div>
@@ -87,6 +88,10 @@
     </footer>
 
     <script src="./js/main.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>

@@ -13,7 +13,7 @@ body.addEventListener('click', function () {
     }
 });
 
-ScrollReveal().reveal('.element1');
+/*ScrollReveal().reveal('.element1');
 ScrollReveal().reveal('.element2', {delay: 200});
 ScrollReveal().reveal('.element3', {delay: 600});
-ScrollReveal().reveal('.element4', {delay: 800});
+ScrollReveal().reveal('.element4', {delay: 800});*/

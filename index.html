@@ -16,6 +16,7 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/device-width.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
 
@@ -40,35 +41,35 @@
     <div class="grid">
         <div class="grid1">
             <div class="grid-container">
-                <div class="element1-1"></div>
-                <div class="element2-2"><h1>Lorem ipsum dolor sit amet.</h1></div>
+                <div class="element1-1" data-aos="fade-down" data-aos-delay="500"></div>
+                <div class="element2-2" data-aos="fade-up" data-aos-delay="500"><h1>Lorem ipsum dolor sit amet.</h1></div>
             </div>
         </div>
     </div>
 
     <div class="proyectos">
-        <div class="proyecto1">
+        <div class="proyecto1" data-aos="fade-up" data-aos-delay="500">
             <div class="center-items1">
-                <h1>Big news today</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur 
+                <h1 data-aos="zoom-out-up" data-aos-delay="600">Big news today</h1>
+                <p data-aos="zoom-out-up" data-aos-delay="700">Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Vero eveniet facilis 
                     officia nulla magnam tenetur voluptas 
                     perferendis natus esse aliquid blanditiis, 
                     repudiandae excepturi reiciendis error soluta 
                     nemo quod nisi non.</p>
-                <a href="./proyecto.html?proyecto=proyecto1" class="btn">Ver proyecto <i class="fas fa-angle-double-right"></i></a>
+                <a href="./proyecto.html?proyecto=proyecto1" class="btn" data-aos="zoom-out-up" data-aos-delay="800">Ver proyecto <i class="fas fa-angle-double-right"></i></a>
             </div>
         </div>
-        <div class="proyecto2">
+        <div class="proyecto2" data-aos="fade-up" data-aos-delay="500">
             <div class="center-items2">
-                <h1>Big news today</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur 
+                <h1 data-aos="zoom-out-up" data-aos-delay="600">Big news today</h1>
+                <p data-aos="zoom-out-up" data-aos-delay="700">Lorem, ipsum dolor sit amet consectetur 
                     adipisicing elit. Vero eveniet facilis 
                     officia nulla magnam tenetur voluptas 
                     perferendis natus esse aliquid blanditiis, 
                     repudiandae excepturi reiciendis error soluta 
                     nemo quod nisi non.</p>
-                <a href="./proyecto.html?proyecto=proyecto2" class="btn">Ver proyecto <i class="fas fa-angle-double-right"></i></a>
+                <a href="./proyecto.html?proyecto=proyecto2" class="btn" data-aos="zoom-out-up" data-aos-delay="800">Ver proyecto <i class="fas fa-angle-double-right"></i></a>
             </div>
         </div>
     </div>
@@ -76,16 +77,16 @@
     <div class="grid">
         <div class="grid2">
             <div class="nested-grid">
-                <div class="element1"><h1>SIEMPRE</h1></div>
-                <div class="element2"><h1>INNOVANDO</h1></div>
-                <div class="element3"><h1>SIEMPRE</h1></div>
-                <div class="element4"><h1>CONSTRUYENDO</h1></div>
+                <div class="element1" data-aos="fade-right" data-aos-delay="300"><h1>SIEMPRE</h1></div>
+                <div class="element2" data-aos="fade-left" data-aos-delay="600"><h1>INNOVANDO</h1></div>
+                <div class="element3" data-aos="fade-right" data-aos-delay="900"><h1>SIEMPRE</h1></div>
+                <div class="element4" data-aos="fade-left" data-aos-delay="1200"><h1>CONSTRUYENDO</h1></div>
             </div>
         </div>
     </div>
 
     <div class="proyectos">
-        <div class="proyecto3">
+        <div class="proyecto3" data-aos="flip-right" data-aos-delay="300">
             <div class="center-items3">
                 <h1>Big news today</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur 
@@ -97,7 +98,7 @@
                 <a href="./proyecto.html?proyecto=proyecto3" class="btn">Ver proyecto <i class="fas fa-angle-double-right"></i></a>
             </div>
         </div>
-        <div class="proyecto4">
+        <div class="proyecto4" data-aos="flip-left" data-aos-delay="300">
             <div class="center-items4">
                 <h1>Big news today</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur 
@@ -136,6 +137,10 @@
     </footer>
 
     <script src="./js/main.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>

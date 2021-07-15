@@ -45,6 +45,7 @@
 .imageMe {
     grid-area: 1 / 4 / 5 / 5;
     background: url('../img/aboutUs/about4.png') no-repeat center center/cover;
+    background-attachment: fixed;
 }
 
 .imageMe p {
